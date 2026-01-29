@@ -1,0 +1,22 @@
+Versi├│n de MSBuild 18.0.5+e22287bf1 para .NET Framework
+Compilaci├│n iniciada a las 28/01/2026 12:12:38 a. m..
+
+Proyecto "C:\Users\Usuario\source\repos\Search Lobbys\Search Lobbys.sln" en nodo 1 (destinos predeterminados).
+ValidateSolutionConfiguration:
+  Compilando la configuraci├│n de soluciones "Release|x64".
+El proyecto "C:\Users\Usuario\source\repos\Search Lobbys\Search Lobbys.sln" (1) est├í compilando "C:\Users\Usuario\source\repos\Search Lobbys\Search Lobbys.vcxproj" (2) en el nodo 1 (destinos predeterminados).
+C:\Program Files (x86)\Microsoft Visual Studio\18\BuildTools\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets(473,5): error MSB8020: The build tools for Visual Studio 2022 (Platform Toolset = 'v143') cannot be found. To build using the v143 build tools, please install Visual Studio 2022 build tools.  Alternatively, you may upgrade to the current Visual Studio tools by selecting the Project menu or right-click the solution, and then selecting "Retarget solution". [C:\Users\Usuario\source\repos\Search Lobbys\Search Lobbys.vcxproj]
+Compilaci├│n del proyecto terminada "C:\Users\Usuario\source\repos\Search Lobbys\Search Lobbys.vcxproj" (destinos predeterminados) -- ERROR.
+Compilaci├│n del proyecto terminada "C:\Users\Usuario\source\repos\Search Lobbys\Search Lobbys.sln" (destinos predeterminados) -- ERROR.
+
+ERROR al compilar.
+
+"C:\Users\Usuario\source\repos\Search Lobbys\Search Lobbys.sln" (destino predeterminado) (1) ->
+"C:\Users\Usuario\source\repos\Search Lobbys\Search Lobbys.vcxproj" (destino predeterminado) (2) ->
+(PrepareForBuild destino) -> 
+  C:\Program Files (x86)\Microsoft Visual Studio\18\BuildTools\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets(473,5): error MSB8020: The build tools for Visual Studio 2022 (Platform Toolset = 'v143') cannot be found. To build using the v143 build tools, please install Visual Studio 2022 build tools.  Alternatively, you may upgrade to the current Visual Studio tools by selecting the Project menu or right-click the solution, and then selecting "Retarget solution". [C:\Users\Usuario\source\repos\Search Lobbys\Search Lobbys.vcxproj]
+
+    0 Advertencia(s)
+    1 Errores
+
+Tiempo transcurrido 00:00:00.16

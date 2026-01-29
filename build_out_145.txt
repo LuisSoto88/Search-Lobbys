@@ -1,0 +1,78 @@
+Versi├│n de MSBuild 18.0.5+e22287bf1 para .NET Framework
+Compilaci├│n iniciada a las 28/01/2026 12:13:23 a. m..
+
+Proyecto "C:\Users\Usuario\source\repos\Search Lobbys\Search Lobbys.sln" en nodo 1 (destinos predeterminados).
+ValidateSolutionConfiguration:
+  Compilando la configuraci├│n de soluciones "Release|x64".
+El proyecto "C:\Users\Usuario\source\repos\Search Lobbys\Search Lobbys.sln" (1) est├í compilando "C:\Users\Usuario\source\repos\Search Lobbys\Search Lobbys.vcxproj" (2) en el nodo 1 (destinos predeterminados).
+PrepareForBuild:
+  Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
+  Creando directorio "C:\Users\Usuario\source\repos\Search Lobbys\x64\Release\".
+InitializeBuildStatus:
+  Se crear├í "Search Lobbys\x64\Release\Search Lobbys.tlog\unsuccessfulbuild" porque se especific├│ "AlwaysCreate".
+  Aplicando tarea Touch a "Search Lobbys\x64\Release\Search Lobbys.tlog\unsuccessfulbuild".
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\18\BuildTools\VC\Tools\MSVC\14.50.35717\bin\HostX86\x64\CL.exe /c /Zi /nologo /W3 /WX- /diagnostics:column /sdl /O2 /Oi /GL /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"Search Lobbys\x64\Release\\" /Fd"Search Lobbys\x64\Release\vc145.pdb" /external:W3 /Gd /TP /FC /errorReport:queue "Search Lobbys.cpp"
+  Search Lobbys.cpp
+C:\Users\Usuario\source\repos\Search Lobbys\Search Lobbys.cpp(234,22): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data [C:\Users\Usuario\source\repos\Search Lobbys\Search Lobbys.vcxproj]
+C:\Program Files (x86)\Microsoft Visual Studio\18\BuildTools\VC\Tools\MSVC\14.50.35717\include\xutility(4924,18): warning C4244: '=': conversion from 'wchar_t' to 'char', possible loss of data [C:\Users\Usuario\source\repos\Search Lobbys\Search Lobbys.vcxproj]
+  (compiling source file 'Search%20Lobbys.cpp')
+      C:\Program Files (x86)\Microsoft Visual Studio\18\BuildTools\VC\Tools\MSVC\14.50.35717\include\xutility(4924,18):
+      the template instantiation context (the oldest one first) is
+          C:\Users\Usuario\source\repos\Search Lobbys\Search Lobbys.cpp(208,25):
+          see reference to function template instantiation 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)' being compiled
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+              _Alloc=std::allocator<char>
+          ]
+              C:\Users\Usuario\source\repos\Search Lobbys\Search Lobbys.cpp(208,25):
+              see the first reference to 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string' in 'UpdateAppIDFile'
+          C:\Program Files (x86)\Microsoft Visual Studio\18\BuildTools\VC\Tools\MSVC\14.50.35717\include\xstring(862,17):
+          see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct_from_iter<wchar_t*,wchar_t*,_Size_type>(_Iter,const _Sent,_Size)' being compiled
+          with
+          [
+              _Size_type=unsigned __int64,
+              _Iter=wchar_t *,
+              _Sent=wchar_t *,
+              _Size=unsigned __int64
+          ]
+          C:\Program Files (x86)\Microsoft Visual Studio\18\BuildTools\VC\Tools\MSVC\14.50.35717\include\xstring(1018,18):
+          see reference to function template instantiation '_OutIt *std::_Copy_n_unchecked4<wchar_t*,_Size,char*>(_InIt,_SizeTy,_OutIt)' being compiled
+          with
+          [
+              _OutIt=char *,
+              _Size=unsigned __int64,
+              _InIt=wchar_t *,
+              _SizeTy=unsigned __int64
+          ]
+  
+ResourceCompile:
+  C:\Program Files (x86)\Windows Kits\10\bin\10.0.26100.0\x86\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Search Lobbys\x64\Release\Search Lobbys.res" "Search Lobbys.rc" 
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\18\BuildTools\VC\Tools\MSVC\14.50.35717\bin\HostX86\x64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\Usuario\source\repos\Search Lobbys\x64\Release\Search Lobbys.exe" /NOLOGO Comctl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:\Users\Usuario\source\repos\Search Lobbys\x64\Release\Search Lobbys.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG:incremental /LTCGOUT:"Search Lobbys\x64\Release\Search Lobbys.iobj" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Usuario\source\repos\Search Lobbys\x64\Release\Search Lobbys.lib" /MACHINE:X64 "Search Lobbys\x64\Release\Search Lobbys.res"
+  "Search Lobbys\x64\Release\Search Lobbys.obj"
+  Generating code
+  Previous IPDB was built with incompatible compiler, fall back to full compilation.
+  All 369 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  Search Lobbys.vcxproj -> C:\Users\Usuario\source\repos\Search Lobbys\x64\Release\Search Lobbys.exe
+FinalizeBuildStatus:
+  Se eliminar├í el archivo "Search Lobbys\x64\Release\Search Lobbys.tlog\unsuccessfulbuild".
+  Aplicando tarea Touch a "Search Lobbys\x64\Release\Search Lobbys.tlog\Search Lobbys.lastbuildstate".
+Compilaci├│n del proyecto terminada "C:\Users\Usuario\source\repos\Search Lobbys\Search Lobbys.vcxproj" (destinos predeterminados).
+Compilaci├│n del proyecto terminada "C:\Users\Usuario\source\repos\Search Lobbys\Search Lobbys.sln" (destinos predeterminados).
+
+Compilaci├│n correcta.
+
+"C:\Users\Usuario\source\repos\Search Lobbys\Search Lobbys.sln" (destino predeterminado) (1) ->
+"C:\Users\Usuario\source\repos\Search Lobbys\Search Lobbys.vcxproj" (destino predeterminado) (2) ->
+(ClCompile destino) -> 
+  C:\Users\Usuario\source\repos\Search Lobbys\Search Lobbys.cpp(234,22): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data [C:\Users\Usuario\source\repos\Search Lobbys\Search Lobbys.vcxproj]
+  C:\Program Files (x86)\Microsoft Visual Studio\18\BuildTools\VC\Tools\MSVC\14.50.35717\include\xutility(4924,18): warning C4244: '=': conversion from 'wchar_t' to 'char', possible loss of data [C:\Users\Usuario\source\repos\Search Lobbys\Search Lobbys.vcxproj]
+
+    2 Advertencia(s)
+    0 Errores
+
+Tiempo transcurrido 00:00:02.62
